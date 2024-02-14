@@ -1,67 +1,40 @@
 import { BsSearch } from "react-icons/bs";
 import { FaUserCircle } from "react-icons/fa";
 
-
-
 // Nav bar
 export const menu = [
   {
     item: "Pricing",
-    dropdown: [
-      "100",
-      "200"
-    ]
+    dropdown: ["100", "200"],
   },
   {
     item: "Indicator Store",
-    dropdown: [
-      "Indicator Store",
-      "NLB Indicator",
-    ],
-    style: "w-40"
+    dropdown: ["Indicator Store", "NLB Indicator"],
+    style: "w-40",
   },
   {
     item: "Syntax",
-    dropdown: [
-      "Synatx",
-      "Synatx",
-      "Synatx",
-      "Synatx",
-    ]
+    dropdown: ["Synatx", "Synatx", "Synatx", "Synatx"],
   },
   {
     item: "Symbol",
-    dropdown: [
-      "symbol",
-      "symbol",
-      "symbol",
-      "symbol",
-
-    ]
+    dropdown: ["symbol", "symbol", "symbol", "symbol"],
   },
   {
     item: "videos",
-    dropdown: [
-      "all videos",
-      "categories",
-      "playlist",
-    ]
+    dropdown: ["all videos", "categories", "playlist"],
   },
   {
     item: "contact Us",
-    dropdown: [
-      "conatct us"
-    ],
+    dropdown: ["conatct us"],
     style: "w-44",
   },
   {
     item: "more",
-    dropdown: [
-      "more",
-    ],
+    dropdown: ["more"],
     style: "w-40",
   },
-]
+];
 
 // Cards
 export const plans = [
@@ -77,13 +50,9 @@ export const plans = [
           "Virtual Options Tradin",
           "Futures: Trade Virtually",
           "Monthly: Three Key Indicators",
-        ]
-
-
-
+        ],
       },
-    ]
-
+    ],
   },
   {
     title: "Broker",
@@ -97,8 +66,7 @@ export const plans = [
           "Virtual Options Tradin",
           "Futures: Trade Virtually",
           "Monthly: Three Key Indicators",
-        ]
-
+        ],
       },
       {
         amount: "999",
@@ -109,8 +77,7 @@ export const plans = [
           "Virtual Options Tradin",
           "Futures: Trade Virtually",
           "Monthly: Three Key Indicators",
-        ]
-
+        ],
       },
       {
         amount: "2697.3",
@@ -121,8 +88,7 @@ export const plans = [
           "Virtual Options Tradin",
           "Futures: Trade Virtually",
           "Monthly: Three Key Indicators",
-        ]
-
+        ],
       },
       {
         amount: "4795",
@@ -133,8 +99,7 @@ export const plans = [
           "Virtual Options Tradin",
           "Futures: Trade Virtually",
           "Monthly: Three Key Indicators",
-        ]
-
+        ],
       },
       {
         amount: "8391",
@@ -145,11 +110,9 @@ export const plans = [
           "Virtual Options Tradin",
           "Futures: Trade Virtually",
           "Monthly: Three Key Indicators",
-        ]
-
+        ],
       },
-
-    ]
+    ],
   },
   {
     title: "MT4/MT5",
@@ -163,8 +126,7 @@ export const plans = [
           "Virtual Options Tradin",
           "Futures: Trade Virtually",
           "Monthly: Three Key Indicators",
-        ]
-
+        ],
       },
       {
         amount: "1300",
@@ -175,9 +137,23 @@ export const plans = [
           "Virtual Options Tradin",
           "Futures: Trade Virtually",
           "Monthly: Three Key Indicators",
-        ]
-
+        ],
       },
     ],
-  }
-]
+  },
+];
+
+// homepage list
+export const info_list = [
+  "Automate Your Tradingview (TV) or Chartink Strategies for Maximum Profits!",
+  "Unlock Your Earning Potential - Sell Your Custom Indicators on Our Marketplace!",
+  "Seamless API Management: Trigger Orders with Nextlevelbot's Order Table Feature!",
+  "Effortless Integration: Tradingview and Chartink Made Easy with Nextlevelbot!",
+  "Tailored Strategies: Fully or Semi-Automated Options for Your Trading Edge!",
+  "Trade Anywhere: All Devices Supported - Smartphone, Tablet, PC, or Laptop!",
+  "Master Multi-Account Trading: Stay in Control with Nextlevelbot!",
+  "Experience Virtual Trading in Real-Time: Boost Your Skills Risk-Free!",
+  "Stay Ahead with Instant Telegram Alerts: Personal, Channel, or Group Notifications!",
+  "Supercharge Your Trading Efficiency: Low Latency and Smooth Experience with Nextlevelbot's Single API and Multi-Account Support!",
+  '"Over 31,000 Accounts and 17,000 Active Users on Our Platform - Join the Community Today!"',
+];

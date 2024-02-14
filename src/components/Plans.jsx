@@ -17,8 +17,7 @@ const Plans = () => {
                 <>
                   <Tab
                     key={index}
-                    className="bg-[#7557f7] w-40 rounded-lg capitalize px-4 py-2.5  text-[1.2rem] text-white leading-5 ring-white/60 ring-offset-1  focus:outline-none focus:ring-2"
-                  >
+                    className="bg-[#7557f7] w-40 rounded-lg capitalize px-4 py-2.5  text-[1.2rem] text-white leading-5 ring-white/60 ring-offset-1  focus:outline-none focus:ring-2">
                     {element?.title}
                   </Tab>
                 </>
@@ -30,13 +29,11 @@ const Plans = () => {
             {plans?.map((element, index) => (
               <Tab.Panel
                 key={element.title}
-                className="flex justify-center flex-wrap gap-12 rounded-md py-7"
-              >
+                className="flex justify-center flex-wrap gap-12 rounded-md py-7">
                 {element?.card?.map((plan, cardIndex) => (
                   <div
                     key={cardIndex}
-                    className="min-w-[395px] flex flex-col justify-center items-center px-8 py-6 rounded-[12px] duration-300 hover:shadow-[0px_2px_28px_-6px_#e9e9e9] bg-[#2e2d2d]"
-                  >
+                    className="min-w-[395px] flex flex-col justify-center items-center px-8 py-6 rounded-[12px] duration-300 hover:shadow-[0px_2px_28px_-6px_#e9e9e9] bg-[#2e2d2d]">
                     <h1 className="text-[2.5rem] text-[#eee] font-semibold">
                       <span className="mr-1"> &#8377;</span>
                       {plan.amount}
@@ -49,8 +46,7 @@ const Plans = () => {
                       {plan.items.map((item, itemIndex) => (
                         <li
                           key={itemIndex}
-                          className="text-[1rem] mb-2 p-2 flex gap-3 "
-                        >
+                          className="text-[1rem] mb-2 p-2 flex gap-3 ">
                           <span className="flex items-center">
                             {/* Assuming TbBrandSupernova is an icon or component */}
                             <TbBrandSupernova className="" />
