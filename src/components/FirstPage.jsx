@@ -4,8 +4,8 @@ import { info_list } from "../utils/Constant";
 
 const HeroSection = () => {
   return (
-    <div className="my-10 h-auto lg:h-[820px] bg-[#101419] px-2 py-4">
-      <div className="w-full lg:max-w-[1400px] mx-auto mt-20 flex justify-center gap-8">
+    <div className="my-10 h-auto lg:h-[820px] bg-[#101419] px-2 py-8">
+      <div className="w-full lg:max-w-[1400px] mx-auto mt-10 flex justify-center gap-8">
         {/* content box */}
         <div>
           <h1 className="text-[32px] font-medium tracking-normal leading-[36.4px] text-left text-white mb-4 mt-2">
@@ -20,6 +20,9 @@ const HeroSection = () => {
               </li>
             ))}
           </ul>
+          <button className="mt-2 bg-[#7367F0] text-white px-4 py-2 rounded-lg border-none outline-none">
+            Register Now
+          </button>
         </div>
         {/* homebanner box */}
         <div className="hidden lg:block">
