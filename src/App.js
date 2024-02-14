@@ -1,8 +1,15 @@
 
 
+
+
+import { New } from './components/Cards/New';
+
+
+
 import Navbar from './components/Navbar';
-import FirstPage from './components/FirstPage';
+
 import Plans from './components/Plans';
+
 
 function App() {
   return (
@@ -11,6 +18,11 @@ function App() {
       <Navbar />
       {/* <FirstPage/> */}
       <Plans />
+        <New/>
+      
+
+      
+      
     </div>
   );
 }
