@@ -35,7 +35,7 @@ const Plans = () => {
                 {element?.card?.map((plan, cardIndex) => (
                   <div
                     key={cardIndex}
-                    className="min-w-[395px] flex flex-col justify-center items-center px-8 py-6 rounded-[12px] duration-300 hover:shadow-[0px_2px_28px_-6px_#e9e9e9] bg-[#2e2d2d]"
+                    className="min-w-[395px]  flex flex-col justify-center items-center px-8 py-6 rounded-[12px] duration-300 hover:shadow-[0px_2px_28px_-6px_#e9e9e9] bg-[#2e2d2d]"
                   >
                     <h1 className="text-[2.5rem] text-[#eee] font-semibold">
                       <span className="mr-1"> &#8377;</span>
