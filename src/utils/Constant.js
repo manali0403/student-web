@@ -157,3 +157,26 @@ export const info_list = [
   "Supercharge Your Trading Efficiency: Low Latency and Smooth Experience with Nextlevelbot's Single API and Multi-Account Support!",
   '"Over 31,000 Accounts and 17,000 Active Users on Our Platform - Join the Community Today!"',
 ];
+
+export const aboutData = [
+  {
+    number: 40628,
+    count: "Total Current Users",
+    description: "Not Fake Data",
+  },
+  {
+    number: 482475,
+    count: "24 Hours API Request",
+    description: "All Brokers or Exchange Request",
+  },
+  {
+    number: 22217,
+    count: "Total of User API",
+    description: "In Our Platform",
+  },
+  {
+    number: 18800,
+    count: "Total Youtube Subscriber",
+    description: "Subscribe Now",
+  },
+];
