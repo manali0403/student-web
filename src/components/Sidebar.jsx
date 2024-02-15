@@ -95,7 +95,7 @@ const Sidebar = () => {
         </button>
         <div
           className={`sidebar-overlay z-20 ${isSidebarOpen ? "active" : ""}`}>
-          <div className="custom-scrollbar py-6 w-[16rem] overflow-y-auto h-auto md:h-[95%]  bg-gradient-to-tr from-[#22222f] from-30% to-[#4E3245]">
+          <div className="custom-scrollbar py-6 w-[16rem] overflow-y-auto h-full md:h-[95%]  bg-gradient-to-tr from-[#22222f] from-30% to-[#4E3245]">
             <div className="logo">
               <img src="" alt="" />
             </div>

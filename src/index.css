@@ -33,7 +33,6 @@ html {
   background-color: var(--scrollbar-color);
 }
 
-/* Hide mobile sidebar by default on desktop */
 .mobile-sidebar {
   display: none;
 }
