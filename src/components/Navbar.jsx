@@ -6,7 +6,7 @@ import Logo from "../assets/images/nextlogofull_white.png";
 const Navbar = () => {
   return (
     <>
-      <div className="w-full flex justify-center items-center fixed z-10  gap-10  bg-gradient-to-r from-[#484848d4] via-[#484848] to-[#484848d4]  py-3 text-xl font-sans  text-white ">
+      <div className="w-full flex justify-between items-center fixed z-10  gap-10  bg-gradient-to-r from-[#484848d4] via-[#484848] to-[#484848d4]  py-3 px-10 text-xl font-sans  text-white ">
         <img src={Logo} alt="" className="w-[15%] h-[100%]" />
 
         <ul className=" flex justify-center gap-1 lg:gap-2">
@@ -14,7 +14,7 @@ const Navbar = () => {
             return (
               <>
                 <div key={index} className="  dropdown-menu relative group ">
-                  <li className="capitalize font-semibold hover:text-[#554bac] p-4  cursor-pointer flex items-center gap-1  ">
+                  <li className="capitalize text-[0.9rem] hover:text-[#ccc] p-4  cursor-pointer flex items-center gap-1  ">
                     <span>{element?.item}</span>
                     {/* <AiOutlineCaretDown /> */}
                   </li>

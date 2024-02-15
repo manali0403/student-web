@@ -100,7 +100,7 @@ const MainContent = () => {
                 socialLinks?.map((element, index) => {
                   return (
                     <>
-                      <button className={`flex items-center gap-2 w-full font-semibold ${element?.customStyle} px-5 py-1.5 rounded-[5px] hover:-translate-y-1 hover:scale-105  duration-300 `}>
+                      <button className={`flex items-center gap-2 w-full font-semibold capitalize ${element?.customStyle} px-5 py-1.5 rounded-[5px] hover:-translate-y-1 hover:scale-105  duration-300 `}>
                         <span>{element?.icon}</span> <span>{element?.name}</span>
                       </button >
                     </>
