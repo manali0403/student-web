@@ -19,6 +19,7 @@ const Sidebar = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   const [dropdownIndex, setdropdownIndex] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [currentMenu, setCurrentMenu] = useState("Dashboard");
 
   const toggleDropdown = (index) => {
     setdropdownIndex(dropdownIndex === index ? null : index);
@@ -51,8 +52,13 @@ const Sidebar = () => {
                     <li key={idx} className="flex flex-col  ">
                       <Link to={item.path}>
                         <div
-                          onClick={() => toggleAccordion(idx)}
-                          className={`flex items-center justify-between text-[#ccc] py-2 px-4 text-[1rem] pl-5 duration-200 hover:bg-[#191720] cursor-pointer mx-2 rounded-[10px]`}>
+                          onClick={() => {
+                            toggleAccordion(idx);
+                            setCurrentMenu(item.itemName);
+                          }}
+                          className={`flex items-center justify-between text-[#ccc] py-2 px-4 text-[1rem] pl-5 duration-200  ${
+                            currentMenu === item.itemName ? "bg-[#191720]" : ""
+                          } cursor-pointer mx-2 rounded-[10px]`}>
                           <div className="flex items-center gap-2.5">
                             <GoHome /> {item?.itemName}
                           </div>
