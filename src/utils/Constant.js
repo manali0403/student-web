@@ -7,7 +7,7 @@ import { LuArrowDownSquare, LuMessagesSquare, LuUsers } from "react-icons/lu";
 import { IoIosInformationCircleOutline, IoLogoWhatsapp } from "react-icons/io";
 import { IoPaperPlaneOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
-import { BsYoutube } from 'react-icons/bs'
+import { BsYoutube } from "react-icons/bs";
 import { GrInstagram } from "react-icons/gr";
 import { FaMessage } from "react-icons/fa6";
 
@@ -150,25 +150,25 @@ export const plans = [
         ],
       },
     ],
-  }
-]
+  },
+];
 
 // dashboard page
 export const sideBarMenu = [
   {
-    title: '',
+    title: "",
     items: [
       {
         itemName: "Home",
         icon: "home",
-        path: "/"
+        path: "/",
       },
       {
         itemName: "Dashboard",
         icon: "clog",
-        path: "dashboard"
-      }
-    ]
+        path: "/dashboard",
+      },
+    ],
   },
   {
     title: "Features",
@@ -176,6 +176,7 @@ export const sideBarMenu = [
       {
         itemName: "Api Credentials",
         icon: "asd",
+        path: "/api",
       },
       {
         itemName: "Paper Trading V2",
@@ -191,21 +192,21 @@ export const sideBarMenu = [
         subMenu: [
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
-        ]
+        ],
       },
       {
         itemName: "M2M",
@@ -213,21 +214,21 @@ export const sideBarMenu = [
         subMenu: [
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
-        ]
+        ],
       },
       {
         itemName: "Feature And Logs",
@@ -235,21 +236,21 @@ export const sideBarMenu = [
         subMenu: [
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
-        ]
+        ],
       },
       {
         itemName: "Indicator",
@@ -257,21 +258,21 @@ export const sideBarMenu = [
         subMenu: [
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
-        ]
+        ],
       },
       {
         itemName: "Tool And Help",
@@ -279,23 +280,23 @@ export const sideBarMenu = [
         subMenu: [
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
           {
             subItemName: "zszds",
-            icon: "asd"
+            icon: "asd",
           },
-        ]
+        ],
       },
-    ]
+    ],
   },
   {
     title: "Support",
@@ -308,97 +309,96 @@ export const sideBarMenu = [
         itemName: "Telegram Channel",
         icon: "asd",
       },
-    ]
+    ],
   },
-]
+];
 
 export const randomNumbers = [
   {
     icon: <FiUserX />,
-    planName: "Plan Expires in"
+    planName: "Plan Expires in",
   },
   {
     icon: <FiUserX />,
-    planName: "MT4-MT5 Plan"
+    planName: "MT4-MT5 Plan",
   },
   {
     icon: <LuUsers />,
-    planName: "Total Referral"
+    planName: "Total Referral",
   },
   {
     icon: <RiAnchorLine />,
-    planName: "Total Api"
+    planName: "Total Api",
   },
-]
+];
 
 export const apiCards = [
   {
     img: "https://nextlevelbot.com/images/nextbot/zerodha.png",
-    apiName: "KT"
+    apiName: "KT",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/upstox.png",
-    apiName: "Upstox"
+    apiName: "Upstox",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/fyers.png",
-    apiName: "Fyers"
+    apiName: "Fyers",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/binance.png",
-    apiName: "Binance"
+    apiName: "Binance",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/samco.png",
-    apiName: "Samco"
+    apiName: "Samco",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/samco.png",
-    apiName: "Samco"
+    apiName: "Samco",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/samco.png",
-    apiName: "Samco"
+    apiName: "Samco",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/samco.png",
-    apiName: "Samco"
+    apiName: "Samco",
   },
-]
+];
 
 export const socialLinks = [
   {
     name: "Email",
     icon: <MdOutlineMail />,
-    customStyle: "border border-[#9F79C9] hover:bg-[#9F79C9] hover:text-[#eee]"
+    customStyle: "border border-[#9F79C9] hover:bg-[#9F79C9] hover:text-[#eee]",
   },
   {
     name: "Referral URL",
     icon: <FiUserPlus />,
-    customStyle: "border border-[#9099DC] hover:bg-[#9099DC] hover:text-[#eee]"
+    customStyle: "border border-[#9099DC] hover:bg-[#9099DC] hover:text-[#eee]",
   },
   {
     name: "chartink webhook",
     icon: "",
-    customStyle: "border border-[#B96986] hover:bg-[#B96986] hover:text-[#eee]"
+    customStyle: "border border-[#B96986] hover:bg-[#B96986] hover:text-[#eee]",
   },
   {
     name: "sequence webhook",
     icon: "",
-    customStyle: "border border-[#9099DC] hover:bg-[#9099DC] hover:text-[#eee]"
+    customStyle: "border border-[#9099DC] hover:bg-[#9099DC] hover:text-[#eee]",
   },
   {
     name: "telegram alert",
     icon: <IoPaperPlaneOutline />,
-    customStyle: "border border-[#9F79C9] hover:bg-[#9F79C9] hover:text-[#eee]"
+    customStyle: "border border-[#9F79C9] hover:bg-[#9F79C9] hover:text-[#eee]",
   },
   {
     name: "enable TG notification",
     icon: <IoPaperPlaneOutline />,
-    customStyle: "border border-[#B96986] hover:bg-[#B96986] hover:text-[#eee]"
+    customStyle: "border border-[#B96986] hover:bg-[#B96986] hover:text-[#eee]",
   },
-]
-
+];
 
 // homepage list
 export const info_list = [
@@ -438,117 +438,116 @@ export const aboutData = [
   },
 ];
 
-
 // Affiliate links
 export const links = [
   {
     img: "https://nextlevelbot.com/images/nextbot/zerodha.png",
-    apiName: "KT"
+    apiName: "KT",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/upstox.png",
-    apiName: "Upstox"
+    apiName: "Upstox",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/fyers.png",
-    apiName: "Fyers"
+    apiName: "Fyers",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/binance.png",
-    apiName: "Binance"
+    apiName: "Binance",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/samco.png",
-    apiName: "Samco"
+    apiName: "Samco",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/samco.png",
-    apiName: "Samco"
+    apiName: "Samco",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/samco.png",
-    apiName: "Samco"
+    apiName: "Samco",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/samco.png",
-    apiName: "Samco"
+    apiName: "Samco",
   },
   {
     img: "https://nextlevelbot.com/images/nextbot/binance.png",
-    apiName: "Binance"
+    apiName: "Binance",
   },
-]
+];
 
 export const apps = [
   {
     hyperLinks: "https://www.youtube.com/c/NextLevelBot/videos",
     icon: <BsYoutube />,
     name: "youtube",
-    customStyle: "bg-[#ff0000] border-2 border-[#ff0000]"
+    customStyle: "bg-[#ff0000] border-2 border-[#ff0000]",
   },
   {
     hyperLinks: "https://www.youtube.com/c/NextLevelBot/videos",
     icon: <IoLogoWhatsapp />,
     name: "WhatsApp",
-    customStyle: "bg-[#28A745] border-2 border-[#28A745]"
+    customStyle: "bg-[#28A745] border-2 border-[#28A745]",
   },
   {
     hyperLinks: "https://www.youtube.com/c/NextLevelBot/videos",
     icon: <RiFootballFill />,
     name: "Community",
-    customStyle: "bg-[#0B2238] border-2 border-[#0B2238]"
+    customStyle: "bg-[#0B2238] border-2 border-[#0B2238]",
   },
   {
     hyperLinks: "https://www.youtube.com/c/NextLevelBot/videos",
     icon: <FaTelegramPlane />,
     name: "Telegram Group",
-    customStyle: "bg-[#007BB5] border-2 border-[#007BB5]"
+    customStyle: "bg-[#007BB5] border-2 border-[#007BB5]",
   },
   {
     hyperLinks: "https://www.youtube.com/c/NextLevelBot/videos",
-    icon:<FaTelegramPlane />,
+    icon: <FaTelegramPlane />,
     name: "Telegram Channel",
-    customStyle: "bg-[#007BB5] border-2 border-[#007BB5]"
+    customStyle: "bg-[#007BB5] border-2 border-[#007BB5]",
   },
   {
     hyperLinks: "https://www.youtube.com/c/NextLevelBot/videos",
-    icon:<GrInstagram />,
+    icon: <GrInstagram />,
     name: "Instagram",
-    customStyle: "bg-[#C32AA3] border-2 border-[#C32AA3]"
+    customStyle: "bg-[#C32AA3] border-2 border-[#C32AA3]",
   },
   {
     hyperLinks: "https://www.youtube.com/c/NextLevelBot/videos",
     icon: <FaFacebookF />,
     name: "Facebook",
-    customStyle: "bg-[#1877F2] border-2 border-[#1877F2]"
+    customStyle: "bg-[#1877F2] border-2 border-[#1877F2]",
   },
   {
     hyperLinks: "https://www.youtube.com/c/NextLevelBot/videos",
     icon: <LuMessagesSquare />,
     name: "WebChat",
-    customStyle: "bg-[#00AFF0] border-2 border-[#00AFF0]"
+    customStyle: "bg-[#00AFF0] border-2 border-[#00AFF0]",
   },
-]
+];
 
 export const footer = [
   {
     href: "https://www.kredallino.tech/privacy.html",
-    name: "Privacy Policy"
+    name: "Privacy Policy",
   },
   {
     href: "https://www.kredallino.tech/refund.html",
-    name: "Refund Policy"
+    name: "Refund Policy",
   },
   {
     href: "https://www.kredallino.tech/terms.html",
-    name: "Terms"
+    name: "Terms",
   },
   {
     href: "https://www.kredallino.tech/terms.html",
-    name: "Cookie Policy"
+    name: "Cookie Policy",
   },
   {
     href: "https://www.kredallino.tech/terms.html",
-    name: "Sitemap"
+    name: "Sitemap",
   },
-]
+];

@@ -13,6 +13,7 @@ import {
 
 import "react-accessible-accordion/dist/fancy-example.css";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -34,7 +35,7 @@ const Sidebar = () => {
   return (
     <>
       <div className="desktop-sidebar hidden md:block">
-        <div className="custom-scrollbar w-[16rem] overflow-y-auto h-auto md:h-[95%]  bg-gradient-to-tr from-[#22222f] from-30% to-[#4E3245]">
+        <div className="custom-scrollbar w-[16rem] overflow-y-auto h-[96vh]  bg-gradient-to-tr from-[#22222f] from-30% to-[#4E3245]">
           <div className="logo">
             <img src="" alt="" />
           </div>
@@ -48,22 +49,24 @@ const Sidebar = () => {
                 <ul>
                   {element?.items?.map((item, idx) => (
                     <li key={idx} className="flex flex-col  ">
-                      <div
-                        onClick={() => toggleAccordion(idx)}
-                        className={`flex items-center justify-between text-[#ccc] py-2 px-4 text-[1rem] pl-5 duration-200 hover:bg-[#191720] cursor-pointer mx-2 rounded-[10px]`}>
-                        <div className="flex items-center gap-2.5">
-                          <GoHome /> {item?.itemName}
+                      <Link to={item.path}>
+                        <div
+                          onClick={() => toggleAccordion(idx)}
+                          className={`flex items-center justify-between text-[#ccc] py-2 px-4 text-[1rem] pl-5 duration-200 hover:bg-[#191720] cursor-pointer mx-2 rounded-[10px]`}>
+                          <div className="flex items-center gap-2.5">
+                            <GoHome /> {item?.itemName}
+                          </div>
+                          {item?.subMenu && (
+                            <>
+                              {activeIndex === idx ? (
+                                <IoIosArrowDown className="font-semibold " />
+                              ) : (
+                                <RiArrowRightSLine className="font-semibold" />
+                              )}
+                            </>
+                          )}
                         </div>
-                        {item?.subMenu && (
-                          <>
-                            {activeIndex === idx ? (
-                              <IoIosArrowDown className="font-semibold " />
-                            ) : (
-                              <RiArrowRightSLine className="font-semibold" />
-                            )}
-                          </>
-                        )}
-                      </div>
+                      </Link>
 
                       {activeIndex === idx && item?.subMenu && (
                         <ul>
