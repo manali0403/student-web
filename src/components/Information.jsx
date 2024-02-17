@@ -3,7 +3,7 @@ import React from 'react'
 const Information = () => {
   return (
     <div className='flex flex-col gap-10  p-6 py-10'>
-      <div className='max-w-[1100px] w-full mx-auto bg-[#fff]  p-6 py-10'>
+      <div className='max-w-[1100px] w-full mx-auto bg-[#fff]  p-6 py-10 px-10'>
         <div className="row-one flex gap-8">
           <div className="left">
             <img src="https://nextlevelbot.com/home/img/icons/france.svg" alt="" />

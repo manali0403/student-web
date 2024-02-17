@@ -4,11 +4,11 @@ import { info_list } from "../utils/Constant";
 
 const HeroSection = () => {
   return (
-    <div className="my-10 h-auto lg:h-[820px] bg-[#101419] px-2 py-8">
-      <div className="w-full lg:max-w-[1400px] mx-auto mt-10 flex justify-center gap-8">
+    <div className="my-10 h-auto lg:h-[820px]  px-2 py-8">
+      <div className="w-full lg:max-w-[1200px] bg-[#eee] mx-auto mt-[6rem] flex justify-center gap-8">
         {/* content box */}
         <div>
-          <h1 className="text-[32px] font-medium tracking-normal leading-[36.4px] text-left text-white mb-4 mt-2">
+          <h1 className="text-[32px] font-medium tracking-normal leading-[36.4px] text-left text-[#222] mb-4 mt-2">
             Boost your trading success with kredkonnect
           </h1>
           <ul className="my-2">

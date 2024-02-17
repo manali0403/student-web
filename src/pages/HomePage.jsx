@@ -8,6 +8,7 @@ import AffiliateLink from "../components/AffiliateLink";
 import CommunityPage from "../components/CommunityPage";
 import Overview from "../components/Overview";
 import { Footer } from "../components/Footer";
+import { New } from "../components/New";
 
 export const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ export const HomePage = () => {
       <Overview />
       <Information />
       <Plans />
+      <New/>
       <AffiliateLink />
       <CommunityPage />
       <Footer />
