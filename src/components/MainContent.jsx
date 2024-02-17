@@ -1,43 +1,12 @@
 import React from "react";
-import { FaRegBell } from "react-icons/fa";
-import { FiUserX, FiUserPlus } from "react-icons/fi";
-import { RiAnchorLine } from "react-icons/ri";
-import { LuArrowDownSquare, LuUsers } from "react-icons/lu";
 import { IoIosInformationCircleOutline } from "react-icons/io";
-import { IoPaperPlaneOutline } from "react-icons/io5";
-import { MdOutlineMail } from "react-icons/md";
 import { apiCards, randomNumbers, socialLinks } from "../utils/Constant";
+import { DashboardHeader } from "./DashboardHeader";
 
 const MainContent = () => {
   return (
     <div className="w-full h-auto md:h-[95%]  px-8 md:px-0">
-      <div className="bg-[#181822] w-full  rounded-[5px]  py-3 px-5">
-        <div className="flex  items-center gap-4 sm:gap-0 justify-between">
-          <h1 className="sm:text-[2rem] text-[#eee] text-start">Dashboard</h1>
-          <div className="flex items-center justify-end gap-28">
-            <div className="flex gap-3">
-              <span className="relative bg-[#DF5978] text-[#fff] rounded-[50%] w-[40px] h-[40px] flex items-center justify-center">
-                SH
-                <span className="w-[10px] h-[10px] rounded-full bg-[#28C76F] absolute right-0 bottom-0 border"></span>
-              </span>
-              <div className="flex flex-col items-start font-semibold">
-                <span className="text-[0.9rem] text-[#5E5E68]">
-                  shivani_parteki
-                </span>
-                <span className="text-[0.7rem] text-[#5E5E68]">ID : 41529</span>
-              </div>
-            </div>
-            <div className="flex items-center gap-3 text-[#5E5E68]">
-              <span className="text-[1.3rem]">
-                <LuArrowDownSquare />
-              </span>
-              <span className="text-[1.3rem]">
-                <FaRegBell />
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <DashboardHeader pageTitle={"Dashboard"} />
 
       <div className="flex flex-col md:flex-row gap-3 py-4">
         <div className="w-full md:w-[70%]">
