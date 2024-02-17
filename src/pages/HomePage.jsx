@@ -12,7 +12,7 @@ import { New } from "../components/New";
 
 export const HomePage = () => {
   return (
-    <div className="flex flex-col bg-[#2e2d2d] ">
+    <div className="flex flex-col bg-[#1A2B33] ">
       <Navbar />
       <FirstPage />
       <About />

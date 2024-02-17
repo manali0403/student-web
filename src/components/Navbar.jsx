@@ -5,8 +5,8 @@ import Logo from "../assets/images/nextlogofull_white.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#2E2D2D] fixed z-10 w-full">
-      <div className="w-full max-w-[1200px] flex justify-between items-center mx-auto z-10 left-[6%] rounded-[10px] mt-5 gap-10  bg-gradient-to-r from-[#484848d4] via-[#484848] to-[#484848d4] py-2 px-8  text-[1rem] font-sans  text-white ">
+    <div className="bg-[#1A2B33] fixed z-10 w-full">
+      <div className="w-full max-w-[1200px] flex justify-between items-center mx-auto z-10 left-[6%] rounded-[10px] mt-5 gap-10  bg-[#46555C]  py-2 px-8  text-[1rem] font-sans  text-white ">
         <img src={Logo} alt="" className="w-[15%] h-[100%]" />
 
         <ul className=" flex justify-center gap-1 lg:gap-2">
