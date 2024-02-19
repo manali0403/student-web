@@ -6,11 +6,11 @@ export const ManualTradeContent = () => {
   const [currentTab, setCurrentTab] = useState("Order Type One");
 
   return (
-    <div className="w-full h-auto md:h-[95%] px-8 md:px-0">
+    <div className="w-full h-auto md:h-[95%] px-8 md:px-0 py-2 my-2">
       <DashboardHeader pageTitle={"Manual Orders  |"} />
 
       {/* orders form and tabs */}
-      <div className="h-[450px] w-[98%] mx-auto my-10 bg-slate-50 rounded-lg shadow-md">
+      <div className="h-full 2xl:h-[450px] w-[98%] mx-auto my-10 bg-slate-50 rounded-lg shadow-md">
         {/* tabs */}
         <div className="flex h-[50px] w-full gap-2 justify-between mb-3">
           <div
