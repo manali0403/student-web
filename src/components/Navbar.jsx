@@ -5,8 +5,8 @@ import Logo from "../assets/images/nextlogofull_white.png";
 
 const Navbar = () => {
   return (
-    <>
-      <div className="w-full flex justify-between items-center fixed z-10  gap-10  bg-gradient-to-r from-[#484848d4] via-[#484848] to-[#484848d4]  py-3 px-10 text-xl font-sans  text-white ">
+    <div className="bg-[#1A2B33] fixed z-10 w-full">
+      <div className="w-full max-w-[1200px] flex justify-between items-center mx-auto z-10 left-[6%] rounded-[10px] mt-5 gap-10  bg-[#46555C]  py-2 px-8  text-[1rem] font-sans  text-white ">
         <img src={Logo} alt="" className="w-[15%] h-[100%]" />
 
         <ul className=" flex justify-center gap-1 lg:gap-2">
@@ -38,12 +38,12 @@ const Navbar = () => {
         </ul>
 
         <div className="p-3  hidden lg:block">
-          <button className="p-1 rounded-full px-8 py-1 mx-3 focus:outline-none focus:border-gray-600 bg-[#7367F0] text-[#fff]">
+          <button className=" rounded-full px-6 py-[0.2rem] focus:outline-none focus:border-gray-600 bg-[#7367F0] text-[#fff] text-[0.8rem]">
             Log In
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

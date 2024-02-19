@@ -5,7 +5,7 @@ import { footer } from "../utils/Constant";
 
 export const Footer = () => {
   return (
-    <footer className="w-full px-4 py-4 xl:px-[70px] bg-[#464646] relative shadow-white shadow-xl mt-20">
+    <footer className="w-full px-4 py-4 xl:px-[70px] bg-[#46555C] relative shadow-white shadow-xl mt-20">
       {/* logo container */}
       <div className="cursor-pointer py-12">
         {/* <img src={logo} height={120} width={120} alt="company-logo" /> */}

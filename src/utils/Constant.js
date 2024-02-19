@@ -46,7 +46,7 @@ export const menu = [
   },
 ];
 
-// Cards
+// Plans
 export const plans = [
   {
     title: "Free",
@@ -151,6 +151,57 @@ export const plans = [
       },
     ],
   },
+];
+
+// Cards
+export const cardData = [
+  {
+    icon: "",
+    title: "Nextlevelbot Web Software",
+    content: "Nextlevelbot, a groundbreaking API Bridge (automated/Algo) Platform, leverages a distinctive Webhook system to effortlessly trigger APIs from Tradingview, Chartink, Excel, Telegram, Amibroker, and other sources, granting traders and developers the ability to enhance their strategies and workflows with unparalleled effectiveness. With its cutting-edge Webhook system, Nextlevelbot serves as a revolutionary API Bridge (automated/Algo) Platform, enabling the seamless triggering of APIs from popular platforms such as Tradingview, Chartink, Excel, Telegram, Amibroker, and more, empowering both traders and developers to optimize their approaches and operations with exceptional efficiency.",
+    aosType:"fade-up",
+    aosDuration:"4000"
+  },
+  {
+    icon: "",
+    title: "TV Strategy and Indicator Programming Services",
+    content: "Our TV Strategy and Indicator programming services cater to your unique requirements, providing seamless customization for your TradingView strategies and indicators. Whether you need to incorporate specific alerts functions or integrate with a Telegram bot, we have you covered for both personal and commercial use. Our commitment to ensuring 100% satisfaction means that you can expect a tailored solution that perfectly aligns with your needs. Additionally, you have the option to obtain the source code or use the service as is, according to your preferences. Partner with us for top-notch programming services that elevate your TradingView experience to new heights.",
+    aosType:"fade-up",
+    aosDuration:"4000"
+  },
+  {
+    icon: "",
+    title: "Strategy and Indicator market place",
+    content: "Nextlevelbot extends its comprehensive support to a multitude of brokers and APIs, encompassing Kt (Zerodha's Kite), Upstox, Fyers, Alice blue, Binance, Samco, Fxcm, 5paise, Angel Broking (Angel One), Tradingview, Alpaca, IIFL, KT Securities, BitBns, Bitmex, Meta Trader (MT4 OR MT5), Wazirx, Delta Exchange, with additional integrations planned for the future. This diverse range of compatible platforms ensures that users can seamlessly connect to their preferred trading and financial services through Nextlevelbot.",
+    aosType:"fade-up",
+    aosDuration:"4000"
+  },
+  // Add more card data if needed
+  {
+    icon: "",
+    title: "Programming Services ",
+    content: "Our programming services are tailored to meet your specific needs, offering seamless integration and customization for any public API, both for personal and commercial use. We prioritize client satisfaction, ensuring that you are fully content with the final product, whether you opt for the source code or not. Additionally, our services encompass server setup and domain configuration, providing a comprehensive solution that fulfills all your requirements. Rest assured, we are committed to delivering high-quality solutions that align perfectly with your vision.",
+    aosType:"fade-up",
+    aosDuration:"4000"
+  },
+  {
+    icon: "",
+    title: "TV Strategy and Indicator Programming Services ",
+    content: "Our TV Strategy and Indicator programming services cater to your unique requirements, providing seamless customization for your TradingView strategies and indicators. Whether you need to incorporate specific alerts functions or integrate with a Telegram bot, we have you covered for both personal and commercial use. Our commitment to ensuring 100% satisfaction means that you can expect a tailored solution that perfectly aligns with your needs. Additionally, you have the option to obtain the source code or use the service as is, according to your preferences. Partner with us for top-notch programming services that elevate your TradingView experience to new heights.",
+    aosType:"fade-up",
+    aosDuration:"4000"
+  },
+  {
+    icon: "",
+
+
+
+    title: "Strategy and Indicator   market  place",
+    content: "Nextlevelbot is proud to offer its Strategy Marketplace Services, providing you with a platform to showcase and sell your exclusive indicators and trading strategies. You have the flexibility to offer your creations for either monthly subscriptions or one-time purchases, catering to your preferred pricing model. Join our thriving marketplace and tap into a vast community of potential buyers interested in your innovative solutions. For more detailed information and to get started with selling your indicators and strategies on Nextlevelbot's marketplace, please feel free to connect with us. Our team is ready to assist you throughout the process, ensuring a seamless and rewarding experience. Don't miss this opportunity to monetize your expertise and contribute to the trading community through Nextlevelbot's Strategy Marketplace Services.",
+    aosType:"fade-up",
+    aosDuration:"4000"
+  },
+  // Add more c
 ];
 
 // dashboard page
@@ -421,21 +472,29 @@ export const aboutData = [
     number: 40628,
     count: "Total Current Users",
     description: "Not Fake Data",
+    aosType: 'fade-up',
+    aosDuration: "500"
   },
   {
     number: 482475,
     count: "24 Hours API Request",
     description: "All Brokers or Exchange Request",
+    aosType: 'fade-up',
+    aosDuration: "1000"
   },
   {
     number: 22217,
     count: "Total of User API",
     description: "In Our Platform",
+    aosType: 'fade-up',
+    aosDuration: "1500"
   },
   {
     number: 18800,
     count: "Total Youtube Subscriber",
     description: "Subscribe Now",
+    aosType: 'fade-up',
+    aosDuration: "2000"
   },
 ];
 
@@ -591,6 +650,7 @@ export const apiArray = [
   { title: "ZERODHA" },
 ];
 
+
 export const orderTypeOne = [
   {
     label: "Symbol Expiry",
@@ -739,3 +799,42 @@ export const orderTypeTwo = [
     style: "flex flex-col",
   },
 ];
+
+export const appApiDetails = [
+  {
+    title: "App api",
+    inputType: "text"
+  },
+  {
+    title: "App source",
+    inputType: "text"
+  },
+  {
+    title: "User Id",
+    inputType: "text"
+  },
+  {
+    title: "Password",
+    inputType: "text"
+  },
+  {
+    title: "User key",
+    inputType: "text"
+  },
+  {
+    title: "Encryption key",
+    inputType: "text"
+  },
+  {
+    title: "5Paisa Account Email",
+    inputType: "text"
+  },
+  {
+    title: "5Paisa Account Password",
+    inputType: "text"
+  },
+  {
+    title: "5Paisa Account DOB (YYMMDD)",
+    inputType: "text"
+  },
+]

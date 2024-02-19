@@ -3,8 +3,8 @@ import { apiCards, links, socialLinks } from '../utils/Constant'
 
 const AffiliateLink = () => {
   return (
-    <div className='max-w-[1200px] w-full mx-auto  p-6 py-10 mt-8'>
-      <h1 className='capitalize flex justify-center text-[#eee] text-[2.5rem]'> our affiliate links </h1>
+    <div className='max-w-[1200px] w-full mx-auto  p-6 py-10 mt-[6rem]'>
+      <h1 className='capitalize flex justify-center font-semibold text-[#7367F0] text-[2.5rem]'> our affiliate links </h1>
       <div className="api-cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  rounded-[5px] mt-[3rem]">
         {
           links?.map((element, index) => {

@@ -4,6 +4,7 @@ import { DashboardPage } from "./pages/DashboardPage";
 import { ApiPage } from "./pages/ApiPage";
 import { ManualTradingPage } from "./pages/ManualTradingPage";
 
+
 function App() {
   return (
     <BrowserRouter>
