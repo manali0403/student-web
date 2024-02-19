@@ -4,7 +4,7 @@ import { LuArrowDownSquare } from "react-icons/lu";
 
 export const DashboardHeader = ({ pageTitle }) => {
   return (
-    <div className="bg-[#181822] w-full  rounded-[5px]  py-3 px-5">
+    <div className="bg-[#181822] w-full  py-3 px-5 border-b border-b-slate-500 mb-4">
       <div className="flex  items-center gap-4 sm:gap-0 justify-between">
         <h1 className="sm:text-[2rem] text-[#eee] text-start">{pageTitle}</h1>
         <div className="flex items-center justify-end gap-28">
