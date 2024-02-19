@@ -204,7 +204,6 @@ export const cardData = [
   // Add more c
 ];
 
-
 // dashboard page
 export const sideBarMenu = [
   {
@@ -649,3 +648,42 @@ export const apiArray = [
   { title: "ZEBPAY" },
   { title: "ZERODHA" },
 ];
+
+export const appApiDetails = [
+  {
+    title: "App api",
+    inputType: "text"
+  },
+  {
+    title: "App source",
+    inputType: "text"
+  },
+  {
+    title: "User Id",
+    inputType: "text"
+  },
+  {
+    title: "Password",
+    inputType: "text"
+  },
+  {
+    title: "User key",
+    inputType: "text"
+  },
+  {
+    title: "Encryption key",
+    inputType: "text"
+  },
+  {
+    title: "5Paisa Account Email",
+    inputType: "text"
+  },
+  {
+    title: "5Paisa Account Password",
+    inputType: "text"
+  },
+  {
+    title: "5Paisa Account DOB (YYMMDD)",
+    inputType: "text"
+  },
+]
