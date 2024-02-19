@@ -185,6 +185,7 @@ export const sideBarMenu = [
       {
         itemName: "Manual Paper Traid",
         icon: "asd",
+        path: "/manual-trade",
       },
       {
         itemName: "Memberships",
@@ -588,4 +589,153 @@ export const apiArray = [
   { title: "WAZIRX" },
   { title: "ZEBPAY" },
   { title: "ZERODHA" },
+];
+
+export const orderTypeOne = [
+  {
+    label: "Symbol Expiry",
+    input: (
+      <input
+        type="text"
+        placeholder="Symbol Expiry"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[350px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "Transaction Type",
+    input: (
+      <input
+        type="text"
+        placeholder="Transaction Type"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[350px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "Kite Unique Token",
+    input: (
+      <input
+        type="text"
+        placeholder="Kite Unique Token"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[350px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "Lots",
+    input: (
+      <input
+        type="text"
+        placeholder="Lots"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[250px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "Take Profit",
+    input: (
+      <input
+        type="text"
+        placeholder="Take Profit"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[250px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "Stop Loss",
+    input: (
+      <input
+        type="text"
+        placeholder="Stop Loss"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[250px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "ATM/OTM",
+    input: (
+      <input
+        type="text"
+        placeholder="ATM/OTM"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[250px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "Nearby",
+    input: (
+      <input
+        type="text"
+        placeholder="Nearby"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[250px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+];
+
+export const orderTypeTwo = [
+  {
+    label: "Symbol Expiry",
+    input: (
+      <input
+        type="text"
+        placeholder="Symbol Expiry"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[350px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "Transaction Type",
+    input: (
+      <input
+        type="text"
+        placeholder="Transaction Type"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[350px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "Lots",
+    input: (
+      <input
+        type="text"
+        placeholder="Lots"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[350px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "Take Profit",
+    input: (
+      <input
+        type="text"
+        placeholder="Take Profit"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[350px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
+  {
+    label: "Stop Loss",
+    input: (
+      <input
+        type="text"
+        placeholder="Stop Loss"
+        className="border border-gray-400 focus:outline-none px-4 py-2 rounded-md placeholder:capitalize placeholder:text-gray-500 w-[350px] placeholder:text-sm"
+      />
+    ),
+    style: "flex flex-col",
+  },
 ];
