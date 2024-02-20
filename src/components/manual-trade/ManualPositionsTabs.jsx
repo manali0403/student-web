@@ -2,8 +2,9 @@ import React, { useState } from "react";
 
 export const ManualPositionsTabs = () => {
   const [currentTab, setCurrentTab] = useState("Open Positions");
+
   return (
-    <div className="h-full 2xl:h-[450px] w-[98%] mx-auto my-10 bg-slate-50 rounded-lg shadow-lg mb-4">
+    <div className="h-full 2xl:h-[350px] w-[98%] mx-auto my-10 bg-slate-50 rounded-lg shadow-lg mb-4">
       {/* tabs */}
       <div className="flex h-[50px] w-full gap-2 justify-between mb-3">
         <div

@@ -5,7 +5,7 @@ export const ManualOrdersTabs = ({ tab }) => {
   const [currentTab, setCurrentTab] = useState(tab);
 
   return (
-    <div className="h-full 2xl:h-[450px] w-[98%] mx-auto my-10 bg-slate-50 rounded-lg shadow-md">
+    <div className="h-full 2xl:h-[350px] w-[98%] mx-auto my-10 bg-slate-50 rounded-lg shadow-md">
       {/* tabs */}
       <div className="flex h-[50px] w-full gap-2 justify-between mb-3">
         <div
