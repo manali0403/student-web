@@ -1,5 +1,5 @@
 import React from "react";
-import { ManualTrading } from "../components/ManualTrading";
+import { ManualTrading } from "../components/manual-trade/ManualTrading";
 
 export const ManualTradingPage = () => {
   return (
