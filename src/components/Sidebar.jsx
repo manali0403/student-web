@@ -20,6 +20,7 @@ const Sidebar = () => {
   const [dropdownIndex, setdropdownIndex] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [currentMenu, setCurrentMenu] = useState("Dashboard");
+  const [subMenuSelected, setSubMenuSelected] = useState("");
 
   const toggleDropdown = (index) => {
     setdropdownIndex(dropdownIndex === index ? null : index);
@@ -55,10 +56,10 @@ const Sidebar = () => {
                           onClick={() => {
                             toggleAccordion(idx);
                             setCurrentMenu(item.itemName);
+                            console.log(idx);
                           }}
-                          className={`flex items-center justify-between text-[#ccc] py-2 px-4 text-[1rem] pl-5 duration-200  ${
-                            currentMenu === item.itemName ? "bg-[#191720]" : ""
-                          } cursor-pointer mx-2 rounded-[10px]`}>
+                          className={`flex items-center justify-between text-[#ccc] py-2 px-4 text-[1rem] pl-5 duration-200  ${currentMenu === item.itemName ? "bg-[#191720]" : ""
+                            } cursor-pointer mx-2 rounded-[10px]`}>
                           <div className="flex items-center gap-2.5">
                             <GoHome /> {item?.itemName}
                           </div>
@@ -75,12 +76,20 @@ const Sidebar = () => {
                       </Link>
 
                       {activeIndex === idx && item?.subMenu && (
-                        <ul>
+                        <ul className="my-2">
                           {item?.subMenu?.map((subItem, subIndex) => (
                             <li
+                              onClick={() => {
+                                setSubMenuSelected(subItem?.subItemName);
+                              }}
                               key={subIndex}
-                              className="flex items-center gap-2.5 py-1.5 px-4 text-[1.1rem] text-[#ccc] pl-8 duration-200">
-                              <GoHome /> {subItem?.subItemName}
+                            >
+                              <Link to={subItem?.path}>
+                                <div className={`flex items-center cursor-pointer capitalize gap-2.5 py-1.5 px-4 text-[0.9rem] text-[#ccc] pl-8 duration-200 ${subMenuSelected === subItem?.subItemName ? "bg-[#191720]" : ""
+                                  }`}>
+                                  <GoHome /> {subItem?.subItemName}
+                                </div>
+                              </Link>
                             </li>
                           ))}
                         </ul>
