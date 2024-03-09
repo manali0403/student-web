@@ -8,17 +8,17 @@ const Information = () => {
           <div className="left">
             <img className='w-[80px]' src="https://nextlevelbot.com/home/img/icons/france.svg" alt="" />
 
-            <h1 className='text-[1.3rem] font-semibold mt-8 mb-3 text-[#ccc]'>International API Bridge</h1>
+            <h1 className='text-[1.3rem] font-semibold mt-8 mb-3 text-[#ccc]'>Increases Productivity</h1>
 
-            <p className='text-[#A7AFB7] text-justify'>We proudly support a selection of prominent international Public APIs, ensuring a wide range of trading options for our users. The supported APIs include Binance, Alpaca (both Alpaca and Alpaca Demo versions), Fxcm (along with Fxcm Demo), FTX, WazirX, MT4, MT5, Bitbns, Delta, and Delta Demo.</p>
+            <p className='text-[#A7AFB7] text-justify'>  Deploying the right student management system means spending less time maintaining records and more time focused on the school. Improved data accuracy and organization only further enhance productivity and efficiency.  Because all data is stored in a central location, this can also improve communication and coordination.</p>
           </div>
 
           <div className="right">
             <img className='w-[50px]' src="https://nextlevelbot.com/home/img/icons/Decentralized.svg" alt="" />
 
-            <h1 className='text-[1.3rem] font-semibold mt-8 mb-3 text-[#ccc]'>Indian Public API Bridge</h1>
+            <h1 className='text-[1.3rem] font-semibold mt-8 mb-3 text-[#ccc]'>Streamlined, Simplified Tasks</h1>
 
-            <p className='text-[#A7AFB7] text-justify'>Nextlevelbot proudly supports a wide range of Indian Public APIs, offering a comprehensive array of options for traders in the Indian market. The list of supported APIs includes Fyers, Aliceblue, Angel One, KT Securities, MT (MetaTrader), Finvasia, IIFL, 5paisa, Samco, Kite (by Zerodha), and Upstox, among others.</p>
+            <p className='text-[#A7AFB7] text-justify'> Student  Nextlevelbot  software empowers teachers to not only keep track of each student’s progress, but also take immediate action to course-correct or provide assistance as needed. Instead of dealing with administrative busywork, educators can focus on teaching.  .</p>
           </div>
         </div>
 
@@ -30,16 +30,17 @@ const Information = () => {
           <div className="right ">
             <img className='w-[65px]' src="https://nextlevelbot.com/home/img/icons/energy.svg" alt="" />
 
-            <h1 className='text-[1.3rem]  font-semibold mt-8 mb-3 text-[#ccc]'>Virtual Trade with Real Time update fully or Semi-automated.
+            <h1 className='text-[1.3rem]  font-semibold mt-8 mb-3 text-[#ccc]'> Improved Communication.
             </h1>
 
             <div className='flex flex-col gap-8 text-justify'>
-              <p className='text-[#A7AFB7]'>Nextlevelbot API Bridge offers a remarkable feature - free virtual trade integrated with Tradingview or Chartink screener and Option paper trade. This service comes at no cost, with no hidden charges, providing a fully automated experience. Simply sign up on Nextlevelbot.com to take advantage of this incredible opportunity.
+              <p className='text-[#A7AFB7]'> Modern student management systems allow students and parents to easily connect with their teachers in an environment where all essential data is accessible upfront.
               </p>
-              <p className='text-[#A7AFB7]'>With virtual trading, you can enhance your learning and accuracy in a risk-free environment, boosting your confidence as a trader. There are no limitations, allowing you to explore and experiment with different strategies, all while gaining valuable insights and sharpening your trading skills.
+              <p className='text-[#A7AFB7]'>  This allows a student’s parents to take a more active role in their education, while also empowering the student to more easily ask questions or seek help. 
               </p>
-              <p className='text-[#A7AFB7]'>Embrace the power of automation and virtual trading with Nextlevelbot, as we facilitate your journey to becoming a more proficient and successful trader, without any financial risk. Join us today to unlock this feature and embark on a journey of growth and knowledge in the world of trading.
-              </p>
+              <p className='text-[#A7AFB7]'> All this is achieved at a reduced cost as well, as the school is no longer required to call, message, or send out paper documents.
+
+</p>
             </div>
           </div>
         </div>
@@ -55,11 +56,11 @@ const Information = () => {
           <div className="element-one max-w-[400px]">
             <img src="https://nextlevelbot.com/home/img/icons/statistics.svg" alt="" />
 
-            <h1 className='text-[1.3rem] font-semibold mt-8 mb-3 text-[#ccc]'>Auto-Strike Price in Option Indian API Bridge
+            <h1 className='text-[1.3rem] font-semibold mt-8 mb-3 text-[#ccc]'>Access to Information
             </h1>
 
             <div className='flex flex-col gap-8'>
-              <p className='text-[#A7AFB7] text-justify'>Nextlevelbot empowers you with a powerful feature in the NFO (Nifty and Bank Nifty Options) segment - the ability to choose the auto Strike Price in Options. This unique feature allows for easy automation of At-The-Money (ATM) or Out-of-The-Money (OTM) options, giving you full freedom and control over your trading decisions.
+              <p className='text-[#A7AFB7] text-justify'>Student website NextlevelBot A student management system makes it possible for parents to gain total visibility into their children’s school activities, assignments, attendance, and performance . It also means a smoother transition between classes and grades, as all teachers have access to a single source of truth about their students performance..
               </p>
             </div>
           </div>
@@ -67,11 +68,11 @@ const Information = () => {
           <div className="element-two max-w-[400px]">
             <img src="https://nextlevelbot.com/home/img/icons/engage.svg" alt="" />
 
-            <h1 className='text-[1.3rem] font-semibold mt-8 mb-3 text-[#ccc]'>Multi Account or API Management Feature with Low latency
+            <h1 className='text-[1.3rem] font-semibold mt-8 mb-3 text-[#ccc]'> Student Tracking
             </h1>
 
             <div className='flex flex-col gap-8'>
-              <p className='text-[#A7AFB7] text-justify'>Nextlevelbot offers an incredible Multi-Account or API Management feature that is especially valuable for professionals in the trading community. With this advanced capability, experienced traders with a high IQ level can efficiently manage multiple accounts simultaneously. There are no limitations on the number of accounts or APIs you can handle through Nextlevelbot.
+              <p className='text-[#A7AFB7] text-justify'>  School activity goes beyond the wall of the classroom. It also includes extracurriculars such as sports and clubs, in addition to details about a student’s home life. With a student management system, this information is all kept in one place, making it far simpler for teachers to keep track of their students and identify when one is struggling.
               </p>
             </div>
           </div>
@@ -79,11 +80,12 @@ const Information = () => {
           <div className="element-three max-w-[400px]">
             <img className='w-[50px]' src="https://nextlevelbot.com/home/img/icons/Thunder-move.svg" alt="" />
 
-            <h1 className='text-[1.3rem] font-semibold mt-8 mb-3 text-[#ccc]'>Chartink Scanner
+            <h1 className='text-[1.3rem] font-semibold mt-8 mb-3 text-[#ccc]'>More Efficient Scheduling
             </h1>
 
-            <div className='flex flex-col gap-8'>
-              <p className='text-[#A7AFB7] text-justify'>With Nextlevelbot's support for Chartink scanner, the most powerful full web application, triggering API actions becomes effortless and straightforward. Setting up the integration is a breeze, and there's no requirement for VPS or cloud services. Enjoy the convenience of running your Algo seamlessly with Nextlevelbot, all without worrying about system shutdowns, allowing you to focus on maximizing your trading strategies and achieving your goals.
+            <div className='flex flex-col gap-8 text-[#A7AFB7]'> <p>  Traditionally, school administrators manage timetables and schedules. However, dedicated school administration software provided through a student management platform allows much of this process to be automated. This results in better time management and timetable management
+
+
               </p>
             </div>
           </div>

@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className="h-[350px] w-full max-w-[1200px] mt-[6rem] mx-auto text-center">
       <h2 className="text-[#7367F0] text-[2.5rem] font-semibold capitalize">
-        Reality of kredKonnect Algo Universe
+         Student management System
       </h2>
 
       {/* kredkonnect analysis */}

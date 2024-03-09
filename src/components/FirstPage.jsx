@@ -1,5 +1,5 @@
 import React from "react";
-import HomeBanner from "../assets/images/homeBanner.png";
+import background from "../assets/images/background.jpg";
 import { info_list } from "../utils/Constant";
 
 const HeroSection = () => {
@@ -9,7 +9,7 @@ const HeroSection = () => {
         {/* content box */}
         <div className=" flex justify-center flex-col ">
           <h1 className="text-[1.8rem] font-semibold tracking-normal   text-[#ccc] mb-6 mt-2">
-            Boost your trading success with kredkonnect
+            Student Management NextlevelBot Website 
           </h1>
           <ul className="my-2">
             {info_list.map((info) => (
@@ -26,7 +26,7 @@ const HeroSection = () => {
         </div >
         {/* homebanner box */}
         <div className="hidden lg:block ">
-          <img src={HomeBanner} alt="homebanner" />
+          <img src={background} alt="background" />
         </div>
       </div>
     </div>

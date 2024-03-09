@@ -14,25 +14,25 @@ import { FaMessage } from "react-icons/fa6";
 // Nav bar
 export const menu = [
   {
-    item: "Pricing",
-    dropdown: ["100", "200"],
+    item: "About",
+    dropdown: ["About System", "History","Aim"],
   },
   {
-    item: "Indicator Store",
-    dropdown: ["Indicator Store", "NLB Indicator"],
+    item: "Product And Services",
+    dropdown: ["School Software", "School Model ","Compus"],
     style: "w-40",
   },
   {
-    item: "Syntax",
-    dropdown: ["Synatx", "Synatx", "Synatx", "Synatx"],
+    item: "Features",
+    dropdown: ["Adminsition Management", "Student management ", "Labiary Management ", "Accouting Management"],
   },
   {
-    item: "Symbol",
-    dropdown: ["symbol", "symbol", "symbol", "symbol"],
+    item: "Client",
+    dropdown: ["Segment", "client", "Customer"],
   },
   {
-    item: "videos",
-    dropdown: ["all videos", "categories", "playlist"],
+    item: "Resources",
+    dropdown: ["Podcast videos", "categories", "Blog"],
   },
   {
     item: "contact Us",
@@ -49,23 +49,21 @@ export const menu = [
 // Plans
 export const plans = [
   {
-    title: "Free",
+    title: "Student",
     card: [
       {
-        amount: "0 / Lifetime",
-        days: "Free",
+        amount: "Mr. Ashok Menon",
+        days: "",
         items: [
-          "PaperTrade: Tradingview Enabled",
-          "Chartink PaperTrade Access",
-          "Virtual Options Tradin",
-          "Futures: Trade Virtually",
-          "Monthly: Three Key Indicators",
+          "Direactor: R P. school ",
+          "Futures: These System good",
+          "Location : Ahemdabad",
         ],
       },
     ],
   },
   {
-    title: "Broker",
+    title: "Vision",
     card: [
       {
         amount: "199",
@@ -125,7 +123,7 @@ export const plans = [
     ],
   },
   {
-    title: "MT4/MT5",
+    title: "Mission",
     card: [
       {
         amount: "299",
@@ -449,45 +447,44 @@ export const socialLinks = [
 
 // homepage list
 export const info_list = [
-  "Automate Your Tradingview (TV) or Chartink Strategies for Maximum Profits!",
-  "Unlock Your Earning Potential - Sell Your Custom Indicators on Our Marketplace!",
-  "Seamless API Management: Trigger Orders with Nextlevelbot's Order Table Feature!",
-  "Effortless Integration: Tradingview and Chartink Made Easy with Nextlevelbot!",
-  "Tailored Strategies: Fully or Semi-Automated Options for Your Trading Edge!",
+  "  A Student Management System is a must-have, indispensable tool for educational institutions.",
+  "IT is provided cost- effective solutions of campous and school management.",
+  "Student management website it manage overall campous operations in adminstrations.",
+  "It serves to streamline communication and data coordination between administrative staff, faculty, parents, and students.",
+  "User-friendly interface which required minimal IT skills",
   "Trade Anywhere: All Devices Supported - Smartphone, Tablet, PC, or Laptop!",
-  "Master Multi-Account Trading: Stay in Control with Nextlevelbot!",
+  "Master Multi-Account Trading: Stay in Control with Nextlevelbot student !",
   "Experience Virtual Trading in Real-Time: Boost Your Skills Risk-Free!",
-  "Stay Ahead with Instant Telegram Alerts: Personal, Channel, or Group Notifications!",
-  "Supercharge Your Trading Efficiency: Low Latency and Smooth Experience with Nextlevelbot's Single API and Multi-Account Support!",
-  '"Over 31,000 Accounts and 17,000 Active Users on Our Platform - Join the Community Today!"',
+  "Experiance Teacher are present twenty-four hours .",
+  
 ];
 
 export const aboutData = [
   {
     number: 40628,
-    count: "Total Current Users",
-    description: "Not Fake Data",
+    count: "Total Current students",
+    description: "",
     aosType: 'fade-up',
     aosDuration: "500"
   },
   {
     number: 482475,
-    count: "24 Hours API Request",
-    description: "All Brokers or Exchange Request",
+    count: "Student Activity ",
+    description: "",
     aosType: 'fade-up',
     aosDuration: "1000"
   },
   {
     number: 22217,
-    count: "Total of User API",
-    description: "In Our Platform",
+    count: "Total Teacher",
+    description: "",
     aosType: 'fade-up',
     aosDuration: "1500"
   },
   {
     number: 18800,
-    count: "Total Youtube Subscriber",
-    description: "Subscribe Now",
+    count: "Total Management Staff",
+    description: "",
     aosType: 'fade-up',
     aosDuration: "2000"
   },

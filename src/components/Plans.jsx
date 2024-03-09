@@ -8,7 +8,7 @@ const Plans = () => {
     <>
       <div className="   mt-28">
         <h1 className="max-w-[1100px] mx-auto flex justify-center bg-gradient-to-r from-transparent via-[#46555C] to-transparent  font-semibold capitalize text-[2.5rem] text-[#7367F0]  ">
-          plans
+          Student Website 
         </h1>
         <Tab.Group>
           <Tab.List className="flex items-center justify-center gap-6 rounded-xl p-3 mt-12">
@@ -60,7 +60,7 @@ const Plans = () => {
                       ))}
                     </ul>
                     <button className="text-white text-[1rem] w-full rounded-md mt-2 p-3 bg-[#717B85]   ">
-                      Get Started
+                      Login
                     </button>
                   </div>
                 ))}

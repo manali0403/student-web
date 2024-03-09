@@ -5,6 +5,7 @@ import { ApiPage } from "./pages/ApiPage";
 import { ManualTradingPage } from "./pages/ManualTradingPage";
 import MembershipPage from "./pages/MembershipPage";
 import AnotherMembershipPage from "./pages/AnotherMembershipPage";
+import Paper_Trading from "./components/Paper_treading";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="manual-trade" exact element={<ManualTradingPage />} />
         <Route path="/memberships" exact element={<MembershipPage />} />
         <Route path="/memberships/mt4-and-mt5" exact element={<AnotherMembershipPage />} />
+        <Route path ="/paper_trading" exact element={<Paper_Trading/>}/>
       </Routes>
     </BrowserRouter>
   );

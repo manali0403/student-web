@@ -1,0 +1,220 @@
+[33mcommit c872243146b1c0655c471bf79c47ad1c4d89df8d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmanali_dev[m[33m, [m[1;31morigin/shivani-development[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mshivani-development[m[33m)[m
+Merge: bd6c783 5886e54
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Wed Feb 21 10:39:29 2024 +0530
+
+    Membership page done
+
+[33mcommit bd6c7836b87340946486d40fe1ee95f074816d40[m
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Wed Feb 21 10:27:40 2024 +0530
+
+    Membership page done
+
+[33mcommit 5886e5443e39c937553066f13d39fbf6a3265aa7[m
+Merge: d66b989 c6a188e
+Author: Amol Shelke <shelkeamol897@gmail.com>
+Date:   Tue Feb 20 19:15:43 2024 +0530
+
+    Merge pull request #4 from shivaniparteki/new-pages
+    
+    Finalized Manual Trade page.
+
+[33mcommit c6a188e635eaf7a743d28abf1086859ad27c9f13[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Tue Feb 20 18:52:14 2024 +0530
+
+    finalized manual trade page
+
+[33mcommit ab80a05885027f863bd11fd2b719af007e198eb9[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Tue Feb 20 13:27:00 2024 +0530
+
+    minor height adjustment
+
+[33mcommit 51dcc99e9132641da7e16203a6d619551afdeb57[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Tue Feb 20 13:24:41 2024 +0530
+
+    manual position table creating
+
+[33mcommit d66b98959f54fc231964a7a49fe658e757897c59[m
+Merge: 9df4a17 452cbbe
+Author: Amol Shelke <shelkeamol897@gmail.com>
+Date:   Mon Feb 19 20:37:24 2024 +0530
+
+    Merge pull request #3 from shivaniparteki/new-pages
+    
+    Manual Trading Page
+
+[33mcommit 452cbbe24891cd0ff62ce97b841ffb23fd36f108[m
+Merge: 6e65289 9df4a17
+Author: Amol Shelke <shelkeamol897@gmail.com>
+Date:   Mon Feb 19 20:37:10 2024 +0530
+
+    Merge branch 'shivani-development' into new-pages
+
+[33mcommit 6e652898d69fcfdf7d27fb19c053dbac705e0a21[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Mon Feb 19 20:32:30 2024 +0530
+
+    minor changes
+
+[33mcommit ff42b2111c35f63c14e16112c3f05138529f4847[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Mon Feb 19 20:27:25 2024 +0530
+
+    [feat]: Manual Paper Traid page created Order Type one and two tabs changed
+
+[33mcommit 9df4a17b23e114985f4acd2248cc53cbd2a69bf7[m
+Merge: c066cf7 c81c793
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Mon Feb 19 17:28:41 2024 +0530
+
+    Merge branch 'shivani-development' of github.com:shivaniparteki/kredkonnect into shivani-development
+
+[33mcommit c066cf7dec4f36c7888d33915bbf03510c2c9bfc[m
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Mon Feb 19 17:21:09 2024 +0530
+
+    API sidebar module added and changes done in API content
+
+[33mcommit c81c7933caff4837d47a1cde19cdec2db8041312[m
+Merge: 04f4c06 ea36555
+Author: shubham yadav <69741516+kalilinux-png@users.noreply.github.com>
+Date:   Sat Feb 17 18:59:28 2024 +0530
+
+    Merge pull request #2 from shivaniparteki/new-pages
+    
+    API page done
+
+[33mcommit a143eb8637866688f04cb06b244b4c561c033ca7[m
+Merge: c5c0582 ea36555
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Sat Feb 17 16:47:44 2024 +0530
+
+    Merge branch 'new-pages' of github.com:shivaniparteki/kredkonnect into shivani-development
+
+[33mcommit ea365556bcea69a77a50c163921f99235d77ac0f[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Sat Feb 17 16:30:06 2024 +0530
+
+    Add api page update
+
+[33mcommit c5c0582b9fd823d129218262bb5fbd49e3a4b7a6[m
+Merge: 04f4c06 64898e0
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Sat Feb 17 16:20:57 2024 +0530
+
+    Merge branch 'new-pages' of github.com:shivaniparteki/kredkonnect into shivani-development
+
+[33mcommit 04f4c067d52fc5e74699cbc034fe5f30a4a9dd20[m
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Sat Feb 17 16:15:17 2024 +0530
+
+    frontpage module design done
+
+[33mcommit 02971270bcf1b11f760fe8a10a88846dd101c998[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 5086493 a0a59df
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Sat Feb 17 12:40:26 2024 +0530
+
+    cards modified
+
+[33mcommit 64898e0313639d09c2ef255cd1ec415b25b469d2[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Fri Feb 16 19:42:28 2024 +0530
+
+    Api credentials page done
+
+[33mcommit f5328caf7b0fb6abf252bc74af18cfa4097ece8a[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Fri Feb 16 16:53:41 2024 +0530
+
+    [feat]: Api-page header, sidebar, and content box added
+
+[33mcommit 5086493f39331f7bbf4caeb2186d786e61f0fa0c[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Fri Feb 16 12:30:21 2024 +0530
+
+    route and minor changes
+
+[33mcommit f10c2a17c9c568bc27a9c6ebe19907318b165cb8[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Thu Feb 15 19:59:02 2024 +0530
+
+    minor changes
+
+[33mcommit d752da52958423ae7032dc3acf01739093d681c3[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Thu Feb 15 19:55:40 2024 +0530
+
+    [feat]: dashboard mobile responsive
+
+[33mcommit dccc15efa81388cae4c6b7625eae269a7d91d772[m
+Merge: 0684de2 052b850
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Thu Feb 15 19:27:52 2024 +0530
+
+    homepage completed
+
+[33mcommit a0a59df96968123a27aacce72700c5b061f7ad78[m
+Author: manali <manalighuge@gmail.com>
+Date:   Wed Feb 14 19:29:45 2024 +0530
+
+    Initial  Cards Files successfully
+
+[33mcommit 052b850227483e53cfc6cc68a5810709909cf65e[m[33m ([m[1;31morigin/amol-frontend[m[33m)[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Wed Feb 14 19:15:35 2024 +0530
+
+    minor changes
+
+[33mcommit 0684de2155f4a75d0bdbbbf0eb39e4088ef2eb56[m
+Merge: 2bb65b6 f024435
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Wed Feb 14 18:18:57 2024 +0530
+
+    Merge branches 'shivani-development' and 'shivani-development' of github.com:shivaniparteki/kredkonnect into shivani-development
+
+[33mcommit 2bb65b635ca76c9e973809b158e3c48512cf7950[m
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Wed Feb 14 18:13:37 2024 +0530
+
+    dashboard page done
+
+[33mcommit 0e606ad2a0414f68e471b3af2ba903ee869c5fd1[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Wed Feb 14 17:07:59 2024 +0530
+
+    Analysis component added
+
+[33mcommit 1870d7fc26910777c2841c798ac8888a33b9f473[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Wed Feb 14 16:12:50 2024 +0530
+
+    register btn on hero section
+
+[33mcommit 1dcb50da2586121f4dde0a0c36c61dd1da287d13[m
+Author: AmolShelke2 <shelkeamol897@gmail.com>
+Date:   Wed Feb 14 15:15:14 2024 +0530
+
+    Hero section done
+
+[33mcommit f0244351050729fcc6f5afb1bd06e921931dd80a[m
+Author: shubham yadav <69741516+kalilinux-png@users.noreply.github.com>
+Date:   Mon Feb 12 07:55:28 2024 +0530
+
+    Update README.md
+
+[33mcommit 552075e06c63cea2db7cbbbaba3b6bd1bb8be1e4[m
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Sat Feb 3 20:20:49 2024 +0530
+
+    plans module is complete
+
+[33mcommit 8040e5700d5e2c40141334c5f27eb05d2455589f[m
+Author: shivaniparteki <shivaniparteki39@gmail.com>
+Date:   Sat Feb 3 10:47:18 2024 +0530
+
+    Initialize project using Create React App
