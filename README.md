@@ -1,4 +1,4 @@
-![image](https://github.com/shivaniparteki/kredkonnect/assets/69741516/078aa4be-d5dd-4740-907b-422c4ba6cfc6)
+ 
 
 
 # Getting Started with Create React App
